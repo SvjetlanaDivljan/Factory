@@ -20,6 +20,7 @@ public class Car {
    private int consumption;
    private double milage;
    private int fuelUp;
+   private int Passengers;
  
    
    public Car(){
@@ -96,8 +97,8 @@ public class Car {
    public String getVehicleType  (){
         return this.vehicleType ;
 }
-//   public void setVehicleType (final String customVehicleType) {
-//        this.vehicleType = customVehicleType;
+//    public void setVehicleType (String customVehicleType) {
+//        this.VehicleType = customVehicleType;
 //  }
     
    public double getMilage (){
@@ -112,6 +113,12 @@ public class Car {
 }
    public void setFuelUp (int customFuelUp) {
        this.fuelUp = customFuelUp;
+   }
+   public int getPassengers(){
+        return this.Passengers;
+    }
+   public void setPassengers(int customPassengers){
+         this.Passengers = customPassengers;
    }
    
    public void getIn (){
@@ -157,7 +164,14 @@ public class Car {
            this.currentFuel = this.getMaxFuel();
            System.out.println("Rezervoar je pun. Sipali ste" + refill);
        } 
-          
+//    public void getIn () { 
+//       if (this.) {
+//         this.currentFuel = this.getCurrentFuel() + refill;
+//         System.out.println("Uspesno ste sipali " + refill + ". Novo stanje je:" + this.getCurrentFuel());
+//       } else {
+//           this.currentFuel = this.getMaxFuel();
+//           System.out.println("Rezervoar je pun. Sipali ste" + refill);
+//       }       
         
         }
    

@@ -28,6 +28,19 @@ public class Main {
         lada.fuelUp(20);
         lada.travel(400);
         
+        lada.setPassengers (2);
+        lada.showData();
+        
+        lada.getIn();
+        lada.getIn();
+        lada.getOut();
+        lada.getIn(3);
+        lada.getIn(8);
+//        lada.getOut(10);
+//        lada.getOut(2);
+//        lada.getOut(1);
+//        lada.getIn(1);
+        
         
 //        fiat.setModel("Fiat Punto");
 //        fiat.setBuildYear(2010);
